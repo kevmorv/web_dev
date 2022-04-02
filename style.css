@@ -1,0 +1,55 @@
+/* Style de la barre de recherche */
+#input {
+    background-color: grey;
+    border: none;
+}
+
+/* Styles de la présentation des résultats */
+#resultats {
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 1px 1px 1px 1px #474747;
+}
+
+.resultat {
+    display: flex;
+    margin: 10px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+p {
+    font-weight: bold;
+    margin: 0px 0px 0px 10px;
+}
+
+.desc {
+    font-weight: normal;
+}
+
+.hidden {
+    display: none;
+}
