@@ -12,11 +12,11 @@ const payload = [
 let elt = {name:"Villa Deveraux", description:"Influencer", imgSrc:"assets/villadeveraux.jpg"}
 payload.push(elt)
 
-//=====Récupérer premier élément d'une liste=============
+//=====Récupérer premier élément d'une liste, ou d'une collection html........=============
 payload[0]
 
 // ==============Comment créer des balises html avec javascript ?=========
-const monDiv = document.createElement('div')
+const monDiv = document.createElement('span')
 //===============Comment ajouter une classe à une balise html?======
     // 1- sélectionner l'élément
 const monElement =  document.getElementById('mon_id')
